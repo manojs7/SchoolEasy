@@ -1,0 +1,158 @@
+
+
+.cardhover:hover{
+    box-shadow: 0 2px 15px -3px #051223, 0 10px 20px -2px #0d0103;
+}
+
+
+.loginheading{
+    font-size: 40px;
+    font-family: Bodoni;
+    font-weight: 700;
+    text-align: center;
+   
+    font-family: 'Roboto Slab', italic;
+    color: black;
+}
+
+.loginbuttons{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+.LoginButton{
+    justify-content: center;
+    padding: 30px;
+    /* margin-left: 130px; */
+}
+
+.loginbuttonstudent{
+    height: 60px;
+    width: 200px;
+    /* padding: 30px; */
+}
+  
+.loginIcon{
+    margin-right: 15px;
+}
+
+.loginbuttonadmin{
+    height: 60px;
+    width: 200px;
+}
+
+.model-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    font-family: 'Roboto Slab', italic;
+    color: rgb(80, 130, 215);
+}
+
+.login-input-label{
+    text-align: left;
+}
+
+.modellogin{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* margin-left: 26%; */
+    justify-content: center;
+}
+
+
+
+.login {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    transition: ease-in-out 0.4;
+}
+
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #b9d2df;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.login > .button {
+    background: #49c5b6;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.forgot-password{
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+    cursor: pointer;
+    /* font-size: 30px; */
+}
+
+.errormessage{
+    color:red;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    /* float: left; */
+}
+
+
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+        height: 100vh;
+  }
+  
+  #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -28px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+  
+  #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  }
+  
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
